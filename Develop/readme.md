@@ -1,34 +1,34 @@
-# undefined
+
 
   # Project Name
-  r
+  Readme Quick
   
   ## Description
-  r
+  Readme Quick allows the user to generate a quick and professional Readme.md file.
 
   ## Table of Contents
-  Description,Table of Contents,Installation,Usage,License,Contribution Instructions,Test,Questions
+  * Description,Table of Contents,Installation,Usage,License,Contribution Instructions,Test,Questions
 
   ## Installation
-  r
+  The user will need to install inquirer.
 
   ## Usage
-  r
+  After inquirer is installed, run node from the command line, answer all questions, and generate the README.md.
 
   ## License
   undefined
 
   ## Contribution Instructions
-  r
+  A user may contribute by forking the project to their github repository, create a new brach, and begin editing.
 
   ## Test
-  r
+  Test the project by running node <enter your js file name> from the command line. For example node app.js or node index.js.
 
   ## Questions
-  r
+  ltarnold03
 
   ### Repository Name
-  e
+  readme-quick
 
   ### Email
-  email@email.com
+  ltarnold03@yahoo.com

@@ -18,7 +18,7 @@ const questions = [
     {
         type: 'checkbox',
         name: 'tableOfContents',
-        message: 'Please select the Talbe of Contents Item you would like to list of your project.',
+        message: 'Please select the Table of Contents Item you would like to list of your project.',
         choices: ['Description', 'Table of Contents', 'Installation', 'Usage', 'License', 'Contribution Instructions', 'Test', 'Questions']
     },
     {
@@ -29,14 +29,14 @@ const questions = [
     {
         type: 'input',
         name: 'usage',
-        message: 'Please provide instructions for use of your project. If providing a screenshot(s) please use a relative filepath to your projects assets/images folder.'
+        message: 'Please provide instructions for use of your project.'
     },
-    {
-        type: 'list',
-        name: 'license',
-        message: 'Which of the following license applies to your project:',
-        choices: ['a', 'b', 'c'        ]
-    },
+// //    {
+//         type: 'list',
+//         name: 'license',
+//         message: 'Which of the following license applies to your project:',
+//         choices: ['a', 'b', 'c']
+//     }, 
     {
         type: 'input',
         name: 'contributionInstructions',
@@ -45,7 +45,7 @@ const questions = [
     {
         type: 'input',
         name: 'test',
-        message: 'Please provide test instructions for your project?'
+        message: 'How to test your project?'
     },
     {
         type: 'input',
