@@ -75,7 +75,7 @@ inquirer
     .prompt(questions)
 
     .then((data) => {
-        writeToFile(readme, generateMarkdown(data))
+        writeToFile('readme.md', generateMarkdown(data))
         console.log('Readme.md successful!')
    })
    .catch((err) => {
