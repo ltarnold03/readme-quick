@@ -15,31 +15,37 @@ function generateMarkdown(data) {
   return `# ${data.title}
 
   # Project Name
-  $(data.name)
+  ${data.name}
   
   ## Description
-  $(data.desciption)
+  ${data.description}
 
   ## Table of Contents
-  $(data.tableOfContents)
+  ${data.tableOfContents}
 
   ## Installation
-  $(data.installation)
+  ${data.installation}
 
   ## Usage
-  $(data.usage)
+  ${data.usage}
 
   ## License
-  $(data.lincense)
+  ${data.lincense}
 
   ## Contribution Instructions
-  $(data.contributionInstructions)
+  ${data.contributionInstructions}
 
   ## Test
-  $(data.test)
+  ${data.test}
 
   ## Questions
-  $(data.questions)
+  ${data.questions}
+
+  ### Repository Name
+  ${data.repositoryName}
+
+  ### Email
+  ${data.email}
 `;
 }
 
